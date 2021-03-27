@@ -311,6 +311,17 @@ body {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .clients__1 img,
+  .clients__2 img,
+  .clients__3 img,
+  .clients__4 img,
+  .clients__5 img {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+}
+
 .cta {
   padding: 6rem;
   padding-bottom: 16rem;
@@ -495,6 +506,11 @@ body {
   .usages {
     padding: 3rem;
     margin-bottom: 2rem;
+  }
+  .clients {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
   }
   .cta {
     padding: 3rem;

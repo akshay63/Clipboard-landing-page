@@ -273,6 +273,17 @@
       width: 70%;
     }
   }
+
+  @media only screen and (max-width: 480px) {
+    &__1 img,
+    &__2 img,
+    &__3 img,
+    &__4 img,
+    &__5 img {
+      width: 90%;
+      margin-bottom: 3rem;
+    }
+  }
 }
 
 // Section6- cta
@@ -483,6 +494,12 @@
   .usages {
     padding: 3rem;
     margin-bottom: 2rem;
+  }
+
+  .clients {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
   }
 
   .cta {
